@@ -1,0 +1,30 @@
+
+---
+
+### ✅ `requirements.txt`
+
+```txt
+# General
+numpy
+matplotlib
+pandas
+tqdm
+
+# PyTorch
+torch
+torchvision
+torchaudio
+
+# Flask (if using Flask backend)
+Flask
+flask-cors
+
+# OR FastAPI (if using FastAPI instead)
+# fastapi
+# uvicorn
+
+# For Jupyter Notebook
+notebook
+
+# For image preprocessing
+Pillow
