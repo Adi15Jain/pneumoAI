@@ -5,4 +5,6 @@
 html,
 body {
     font-family: "Mona Sans", sans-serif;
+    overflow: hidden;
+    height: 100%;
 }

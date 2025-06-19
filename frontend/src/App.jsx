@@ -2,16 +2,20 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import UploadCard from "./components/UploadCard";
 import Footer from "./components/Footer";
+import Snowfall from "./components/3d/Snowfall";
 import { motion } from "framer-motion";
 
 const App = () => {
     return (
         <div
-            className="min-h-screen bg-cover bg-center overflow-hidden font-mona"
+            className="min-h-screen bg-cover bg-center font-mona"
             style={{ backgroundImage: `url(/background.jpg)` }}
         >
             {/* Overlay */}
             <div className="absolute inset-0 z-0" />
+
+            {/* Snow Particles Layer */}
+            <Snowfall />
 
             {/* Page Content */}
             <motion.div
